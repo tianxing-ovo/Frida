@@ -1,0 +1,1 @@
+frida -D emulator-5554 -f com.example.ndkdemo -l ../js/hook_native.js
