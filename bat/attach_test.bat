@@ -1,0 +1,1 @@
+frida -D emulator-5554 -n wuaipojie -l ../js/hook_test.js

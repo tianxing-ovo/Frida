@@ -135,6 +135,9 @@ frida -D YOUR_DEVICE_ID -f YOUR_PACKAGE_NAME -l ../js/hook.js
    - 检查函数名是否正确
    - 确认模块是否已加载
 
+4. **webstorm控制台中文乱码**
+   - 设置环境变量：PYTHONIOENCODING=UTF-8
+
 ### 调试技巧
 
 - 使用 `console.log()` 输出调试信息
